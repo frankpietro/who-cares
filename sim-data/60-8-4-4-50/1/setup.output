@@ -1,0 +1,48 @@
+
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_MultiObjective_Display                  0
+CPXPARAM_WorkMem                                 8192
+CPXPARAM_DetTimeLimit                            2000000
+Tried aggregator 5 times.
+MIP Presolve eliminated 23938 rows and 130125 columns.
+Aggregator did 295 substitutions.
+Reduced MIP has 988 rows, 2866 columns, and 6697 nonzeros.
+Reduced MIP has 2853 binaries, 13 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,12 sec. (105,45 ticks)
+Found incumbent of value 105440,140000 after 0,14 sec. (123,07 ticks)
+Probing time = 0,01 sec. (3,61 ticks)
+Tried aggregator 2 times.
+Detecting symmetries...
+Aggregator did 6 substitutions.
+Reduced MIP has 982 rows, 2860 columns, and 6685 nonzeros.
+Reduced MIP has 2853 binaries, 7 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,01 sec. (6,71 ticks)
+Probing time = 0,01 sec. (3,62 ticks)
+Clique table members: 4301.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 12 threads.
+Root relaxation solution time = 0,04 sec. (24,51 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                       105440,1400  -277567,0000           363,25%
+*     0+    0                        91801,0670  -277567,0000           402,36%
+*     0+    0                        91792,9940  -277567,0000           402,38%
+*     0+    0                        91784,9210  -277567,0000           402,41%
+*     0+    0                        91776,8480  -277567,0000           402,44%
+*     0+    0                        91768,7750  -277567,0000           402,46%
+*     0+    0                        91760,7020  -277567,0000           402,49%
+*     0     0      integral     0    25207,0100    25207,0100     1303    0,00%
+Elapsed time = 0,23 sec. (187,00 ticks, tree = 0,00 MB, solutions = 8)
+
+Root node processing (before b&c):
+  Real time             =    0,24 sec. (196,84 ticks)
+Parallel b&c, 12 threads:
+  Real time             =    0,00 sec. (0,00 ticks)
+  Sync time (average)   =    0,00 sec.
+  Wait time (average)   =    0,00 sec.
+                          ------------
+Total (root+branch&cut) =    0,24 sec. (196,84 ticks)
+
