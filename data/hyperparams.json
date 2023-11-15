@@ -1,0 +1,12 @@
+{
+    "Cw": 1,
+    "Cm": 1,
+    "Co": 0,
+    "Cx": 1000,
+    "bigM": 1000,
+    "sigma0": 0.3,
+    "sigma1": 0.1,
+    "omega": 0.27,
+    "numDays": 5,
+    "numMunicipalities": 11
+}
