@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings version="2">
+  <category name="cplex">
+    <setting name="workmem" value="15000.0"/>
+    <setting name="multiobjdisplay" value="0"/>
+    <setting name="tilim" value="7200.0"/>
+  </category>
+</settings>

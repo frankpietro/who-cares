@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+    	
+    <version>1.0</version>
+    	
+    <description>Modello per ottimizzazione di routing di operatori sanitari</description>
+    	
+    <configs>
+        		
+        <config default="true" name="version-4" category="opl">
+            			
+            <ref name="hcp.mod" type="model">
+			</ref>
+            			
+            <ref name="hcp.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="version-5" category="opl">
+            			
+            <ref name="new_hcp.mod" type="model">
+			</ref>
+            			
+            <ref name="new_hcp.dat" type="data">
+			</ref>
+            			
+            <ref name="new_hcp.ops" type="setting">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
+</project>
