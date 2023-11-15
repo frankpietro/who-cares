@@ -1,0 +1,51 @@
+
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_MultiObjective_Display                  0
+CPXPARAM_TimeLimit                               60000
+CPXPARAM_WorkMem                                 8192
+CPXPARAM_DetTimeLimit                            60000
+Tried aggregator 3 times.
+MIP Presolve eliminated 22029 rows and 128784 columns.
+Aggregator did 282 substitutions.
+Reduced MIP has 901 rows, 2470 columns, and 5841 nonzeros.
+Reduced MIP has 2458 binaries, 12 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,11 sec. (82,88 ticks)
+Found incumbent of value 103454,848486 after 0,12 sec. (98,16 ticks)
+Probing time = 0,01 sec. (7,62 ticks)
+Tried aggregator 2 times.
+Detecting symmetries...
+MIP Presolve eliminated 2 rows and 1 columns.
+Aggregator did 8 substitutions.
+Reduced MIP has 891 rows, 2461 columns, and 5824 nonzeros.
+Reduced MIP has 2455 binaries, 6 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,01 sec. (7,81 ticks)
+Probing time = 0,01 sec. (3,49 ticks)
+Clique table members: 3686.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 12 threads.
+Root relaxation solution time = 0,02 sec. (17,91 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                       103454,8485  -297686,4197           387,75%
+      0     0    29273,7090   114   103454,8485    29273,7090     1042   71,70%
+*     0+    0                        29741,3470    29273,7090             1,57%
+      0     0    29687,4750   146    29741,3470      Cuts: 10     1078    0,18%
+      0     0    29702,4243   184    29741,3470      Cuts: 12     1102    0,13%
+      0     0        cutoff          29741,3470    29741,3470     1102    0,00%
+Elapsed time = 0,31 sec. (191,06 ticks, tree = 0,01 MB, solutions = 2)
+
+Zero-half cuts applied:  12
+Gomory fractional cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0,32 sec. (195,49 ticks)
+Parallel b&c, 12 threads:
+  Real time             =    0,00 sec. (0,00 ticks)
+  Sync time (average)   =    0,00 sec.
+  Wait time (average)   =    0,00 sec.
+                          ------------
+Total (root+branch&cut) =    0,32 sec. (195,49 ticks)
+
